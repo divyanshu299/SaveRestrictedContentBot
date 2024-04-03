@@ -12,12 +12,12 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
                     level=logging.WARNING)
 
 # variables
-API_ID = config("API_ID", default=None, cast=int)
-API_HASH = config("API_HASH", default=None)
-BOT_TOKEN = config("BOT_TOKEN", default=None)
+API_ID = config("24051078", default=None, cast=int)
+API_HASH = config("5fbd3d24b82a74fb1b0d21fa1d1ce70b", default=None)
+BOT_TOKEN = config("7141893879:AAF2jpoqgtG0Cl7687wbQIRXvs0moRxxTKA", default=None)
 SESSION = config("SESSION", default=None)
-FORCESUB = config("FORCESUB", default=None)
-AUTH = config("AUTH", default=None, cast=int)
+FORCESUB = config("dhatmadarchodd", default=None)
+AUTH = config("6220013615", default=None, cast=int)
 
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
 
